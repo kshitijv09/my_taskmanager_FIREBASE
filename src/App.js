@@ -6,7 +6,6 @@ import ForgotPasword from "./pages/ForgotPassword";
 import Task from "./pages/Tasks/Task";
 import TaskDetail from "./pages/TaskDetail/TaskDetail";
 import { AuthProvider } from "./context/AuthContext";
-
 import ChatBox from "./components/Comments Section/Chatbox";
 
 function App() {

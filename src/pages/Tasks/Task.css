@@ -1,0 +1,102 @@
+.img-cont {
+  border: 8px solid #c8f2f2;
+  height: 100vh;
+  width: 100% !important;
+
+  /* overflow: hidden !important; */
+  position: relative;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+}
+.welcome-text {
+  text-align: center;
+}
+.rem-container {
+  width: 100%;
+  /* height: 100vw; */
+  background-image: url(https://www.transparenttextures.com/patterns/dirty-old-black-shirt.png);
+}
+.task-head {
+  display: flex;
+  justify-content: center;
+}
+.task-heading {
+  font-size: 2em;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  text-decoration: underline;
+}
+
+#selected-btn {
+  text-decoration: underline;
+}
+.sort-btn {
+  color: green;
+}
+.sorting {
+  font-size: 2em;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.add-rem {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.rem-btn {
+  padding: 0.1px;
+  font-size: 1.1em;
+  border: black solid 2px;
+  border-radius: 20px;
+  width: 30%;
+  height: 5.5vw;
+  background-color: #f44336;
+  color: white;
+}
+.rem-btn:hover {
+  background-color: goldenrod;
+  color: black;
+}
+
+@media (max-width: 800px) {
+  .task-head,
+  .sort-btn {
+    font-size: 3.5vw;
+  }
+  .status {
+    width: 5%;
+    font-size: 3.5vw;
+  }
+  .delete {
+    width: 5%;
+    font-size: 3.5vw;
+  }
+
+  .rem-card {
+    width: 95%;
+    font-size: 3.7vw;
+  }
+  .rem-btn {
+    font-size: 4vw;
+    width: 80%;
+    height: 50%;
+  }
+}
+@media (max-width: 830px) {
+  .rem-btn {
+    font-size: 4vw;
+    width: 70%;
+    height: 80%;
+  }
+  #creator {
+    display: none;
+  }
+}

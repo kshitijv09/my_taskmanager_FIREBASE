@@ -1,0 +1,57 @@
+.bg-img {
+  border: 8px solid #c8f2f2;
+  /*   height: 98vh; */
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden !important;
+  position: relative;
+  background-image: url("https://www.transparenttextures.com/patterns/dark-mosaic.png");
+}
+
+.page-container {
+  width: 80%;
+
+  margin: 0;
+
+  /* border: yellow solid 4px; */
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.update-container {
+  width: 50%;
+  border: brown solid 2px;
+  display: flex;
+  flex-direction: row;
+}
+.t1 {
+  width: 100%;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: blue solid 3px; */
+  width: 15%;
+}
+@media (max-width: 800px) {
+  .page-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .update-container {
+    width: 100%;
+  }
+  .btn-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

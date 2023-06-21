@@ -1,0 +1,20 @@
+.add-container {
+  color: black;
+}
+
+.col-container {
+  margin-top: 0.8em;
+  border: pink solid 2px;
+}
+.btn {
+  margin-top: 1.2em;
+}
+.head {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-top: 1em;
+  color: green;
+}
+.title {
+  text-align: center;
+}

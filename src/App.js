@@ -7,7 +7,6 @@ import Task from "./pages/Tasks/Task";
 import TaskDetail from "./pages/TaskDetail/TaskDetail";
 import { AuthProvider } from "./context/AuthContext";
 
-import "./App.css";
 import ChatBox from "./components/Comments Section/Chatbox";
 
 function App() {

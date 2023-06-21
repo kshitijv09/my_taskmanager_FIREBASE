@@ -1,16 +1,3 @@
-# Project Formation
-
-1- Admin Creates Workspace
-2- Employees Login to the Workspace ( Employees can view,comment on all tasks, create own tasks )
-3- Task Creator adds collaborator on a task ( Collaborator can edit selected tasks)
-4- Collaborators can only edit tasks
-5- Only creeator can delete task or add other collaborators
-
-1- User Authentication
-Signing Up
-Login
-Add Task, View Task
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
